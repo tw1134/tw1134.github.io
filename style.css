@@ -1,0 +1,212 @@
+header {
+    background-image: url(cups.jpeg);
+    background-color: rgb(255, 255, 255);
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    color: rgb(180, 67, 67);
+    margin: auto;
+    padding: 20px;
+    height: 120px;
+    background-size: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 3px double #555
+    
+}
+
+*{
+    color: rgb(180, 67, 67);
+}
+
+.navbar a {
+    position: relative;
+    font-weight: bold;
+    font-size: 27px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    
+    height: 2px;
+    background: rgb(180, 67, 67);;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+
+
+
+.features figure {
+    margin: auto;
+    text-align: center;
+    width: 200px;
+
+}
+
+.features {
+    margin: auto;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.features figure img {
+    width: 200px;
+    box-shadow: rgb(235, 234, 234) 0 0 10px;
+    border-radius: 50%;
+    border: 1px solid brown;
+    margin: auto;
+
+}
+
+
+.section {
+    
+    background-color: rgb(159, 159, 159);
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.maps figure {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 27px;
+    color: rgb(180, 67, 67);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+
+.maps iframe {
+    width: 850px;
+    border: 4px solid #fa0202;
+    border-radius: 20%;
+    
+}
+
+.socials figure {
+    margin: auto;
+    width: 2000px;
+    
+}
+.socials figure img {
+    width: 100px;
+}
+
+footer {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(180, 67, 67);
+    display: flex;
+    justify-content: center;
+    border-radius: 40%;
+    
+}
+   
+
+body {
+    background-color: rgb(232, 238, 242);
+    padding: 0;
+    margin: 0;
+    background-image: url(woody2.jpg);
+}
+
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.footercontainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+
+}
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons img{
+    width: 60px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    
+}
+
+.footerbottom p{
+    color: rgb(246, 246, 246);
+    text-align: center;
+
+}
+
+.items {
+
+    margin: auto;
+    font-size: 27px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    font-weight: bold;
+    color: rgb(180, 67, 67);
+}
+
+.items img {
+    width:  150px;
+    border-radius: 50%;
+    border: 1px color rgb(180, 67, 67);
+}
+
+.items2 {
+
+    margin: auto;
+    font-size: 27px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    font-weight: bold;
+    color: rgb(180, 67, 67);
+}
+
+.items2 img {
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+
